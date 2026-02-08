@@ -1,0 +1,10 @@
+^C:\PROGRAMMING\WEEKEND\BUILD\CMAKEFILES\50E6FFAEBF9981ABB7D7170BFF14F010\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Programming/Weekend -BC:/Programming/Weekend/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Programming/Weekend/build/RTWeekend.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

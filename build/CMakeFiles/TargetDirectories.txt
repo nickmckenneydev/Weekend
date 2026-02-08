@@ -1,0 +1,3 @@
+C:/Programming/Weekend/build/CMakeFiles/inOneWeekend.dir
+C:/Programming/Weekend/build/CMakeFiles/ALL_BUILD.dir
+C:/Programming/Weekend/build/CMakeFiles/ZERO_CHECK.dir
